@@ -13,9 +13,21 @@
 It offers a concise and natural language syntax to make assertions, 
 eliminating the need for explicit variable declarations, 
 resulting in more maintainable code with improved readability.</Description>
-    <Copyright>https://opensource.org/licenses/MIT</Copyright>
+    <Copyright></Copyright>
     <PackageTags>Shouldly, Fluent</PackageTags>
+    <PackageProjectUrl>https://github.com/jaider/ShouldlyFluentExtension</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jaider/ShouldlyFluentExtension</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Shouldly" Version="4.1.0" />

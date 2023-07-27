@@ -19,6 +19,22 @@ Find(1)
     .ShouldBe(x => x.Name, "Num");
 ```
 
+Full example:
+
+```csharp
+using ShouldlyFluentExtension;
+
+Item Find(int i) => new Item(i, "Num");
+
+Find(1)
+    .ShouldBe(x => x.Id, 1)
+    .ShouldBe(x => x.Name, "Num");
+
+Console.WriteLine("Hello, World!");
+
+record Item(int Id, string Name);
+```
+
 ## Getting Started
 
 1. Install the ShouldlyFluentExtension NuGet package in your test project.
@@ -35,4 +51,4 @@ Install-Package JNet.Util.ShouldlyFluentExtension
 
 ## Documentation and Contribution
 
-For the latest updates, documentation, and contribution guidelines, visit our GitHub repository: [ShouldlyFluentExtension](https://github.com/jaider/ShouldlyFluentExtension)
+For the latest updates, documentation, and contribution guidelines, visit our GitHub repository: [ShouldlyFluentExtension](https://github.com/jaider/ShouldlyFluentExtension).

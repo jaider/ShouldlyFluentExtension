@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>ShouldlyFluentExtension</Title>
+    <PackageId>JNet.Util.$(AssemblyName)</PackageId>
+    <Authors>Jaider Ariza</Authors>
+    <Company>Jaider Ariza</Company>
+    <Description>Simple and yet powerful and expressive fluent API for unit tests. 
+It offers a concise and natural language syntax to make assertions, 
+eliminating the need for explicit variable declarations, 
+resulting in more maintainable code with improved readability.</Description>
+    <Copyright>https://opensource.org/licenses/MIT</Copyright>
+    <PackageTags>Shouldly, Fluent</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Shouldly" Version="4.1.0" />
+  </ItemGroup>
+
+</Project>

@@ -35,4 +35,4 @@ Install-Package JNet.Util.ShouldlyFluentExtension
 
 ## Documentation and Contribution
 
-For the latest updates, documentation, and contribution guidelines, visit our GitHub repository: ShouldlyFluentExtension
+For the latest updates, documentation, and contribution guidelines, visit our GitHub repository: [ShouldlyFluentExtension](https://github.com/jaider/ShouldlyFluentExtension)
